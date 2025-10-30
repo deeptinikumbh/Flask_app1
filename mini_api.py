@@ -9,7 +9,7 @@ model = pickle.load(model)
 #home page
 @app.route("/")
 def hello_world():
-    return {"Message":"Hello Welcome to loan prediction system version 1!!!"}
+    return {"Message":"Hello Welcome to loan prediction system version 2!!!"}
 
 @app.route("/panda")
 def hello_panda():
